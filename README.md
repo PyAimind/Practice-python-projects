@@ -5,7 +5,7 @@ This repository contains a collection of small Python projects created for learn
 ## Projects
 
 1. Circle Calculator  
-   - Description: A simple program to calculate the area and circumference of a circle.  
+   - Description: A simple program to calculate the area and circumference of a circle.   
    - Folder: circle_calculator/  
    - Run:  
     
