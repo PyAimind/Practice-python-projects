@@ -1,8 +1,13 @@
-n= int(input("please enter your score in high school (1-20):"))
-if n > 20 or n < 0:
-    print(" Wrong,  You have to put a number from 0 to 20🧨")
-    n = int(input("Try again,enter a number between [0-20]"))
-elif n == 20:
+while  True: 
+  try:
+    n= int(input("please enter your score in high school (1-20):"))
+    if 0 <= n <= 20:
+      break
+    else:
+     print(" Wrong,  You have to put a number from 0 to 20🧨") 
+  except ValueError: 
+         print("again")
+if n == 20:
     print("Wow i just  can tell you your the best student i've ever seen in my life")
 elif n >= 19:
     print(" You were so close to twenty you are so awesome😉")
