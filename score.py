@@ -8,7 +8,7 @@ while  True:
   except ValueError: 
          print("again")
 if n == 20:
-    print("Wow i just  can tell you your the best student i've ever seen in my life")
+    print("Wow i just  can tell you, you are the best student i've ever seen in my life")
 elif n >= 19:
     print(" You were so close to twenty you are so awesome😉")
 elif n >= 18:
@@ -26,8 +26,9 @@ elif n >= 11:
 elif n >= 10:
     print("Atleast you got a ten and now you can pass exam perfect😁")
 elif n >= 9:
-    print("You are awful you can't get your dream😒")
+    print("You are awful you can't get your dream😒")   
 elif n >= 5:
     print("I dont know why you coming school🙄")
 elif n >= 0:
     print("WTf bro how did you even do that🤯")
+
