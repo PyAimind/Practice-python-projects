@@ -1,0 +1,29 @@
+def bmi(weight,height):
+    bmi = weight /((height /100 )**2)
+    return bmi
+def bmi_category(bmi):
+    if bmi < 16:
+        return "several thiness" 
+    elif bmi < 17:
+        return "moderate thiness"
+    elif bmi < 19:
+        return "mild thiness"
+    elif bmi < 25:
+        return "normal"
+    elif bmi < 30:
+        return " over weight"
+    elif bmi < 35:  
+        return "obese class 1"
+    elif bmi <= 40:
+        return "obese class 2"
+    elif bmi > 40:
+        return " obese class 3"
+    
+weight = float(input("please enter your weight (kg):"))
+height = float(input("please enter your height (m):"))
+bmi = bmi(weight,height)
+print(f"your bmi:{bmi:.2f}") 
+print(f"category: {bmi_category(bmi)}")
+
+
+
