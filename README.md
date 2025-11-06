@@ -11,7 +11,7 @@ Each project shows my progress in programming logic, structure, and creativity.
 |-----|---------------|--------------|---------|
 | 1 | Circle Calculator | Calculates the area and perimeter of a circle based on user input. | ✅ Completed |
 | 2 | Score Evaluator | Receives student scores (0–20) and gives custom feedback using functions & loops. | ✅ Improved |
-| 3 | BMI Calculator | Coming soon — calculates body mass index and classifies fitness level. | ⏳ In Progress |
+| 3 | BMI Calculator | — calculates body mass index and classifies fitness level. | Completed |
 
 ---
 
