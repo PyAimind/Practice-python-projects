@@ -6,7 +6,7 @@ def score():
         if 0 <= n <= 20:
          break
         else:
-             print(" Wrong,  You have to put a number from 0 to 20🧨") 
+             print(" Wrong,Wrong,  You have to put a number from 0 to 20🧨") 
       except ValueError:
               print("again")
               
